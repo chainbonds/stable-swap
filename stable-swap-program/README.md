@@ -11,7 +11,7 @@ _We recommend using the included Nix flake to develop within this repo._
 Download or update the Solana SDK by running:
 
 ```bash
-solana-install init 1.8.11
+solana-install init 1.9.12
 ```
 
 To build the program, run:
@@ -79,3 +79,11 @@ solana program deploy --buffer $BUFFER_ADDR --program-id $PROGRAM_ID --keypair $
 
 - [ ] Generalize swap pool to support `n` tokens
 - [ ] Implement [`remove_liquidity_imbalance`](https://github.com/curvefi/curve-contract/blob/4aa3832a4871b1c5b74af7f130c5b32bdf703af5/contracts/pool-templates/base/SwapTemplateBase.vy#L539)
+
+## Documentation
+
+Detailed information on how to build on Saber can be found on the [Saber developer documentation website](https://docs.saber.so/docs/developing/overview).
+
+## License
+
+Saber StableSwap is licensed under the Apache License, Version 2.0.
