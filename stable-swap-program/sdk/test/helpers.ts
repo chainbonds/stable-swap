@@ -63,7 +63,8 @@ export const isCluster = (clusterRaw?: string): clusterRaw is Cluster =>
 
 export const CLUSTER_API_URLS: { [C in Network]: string } = {
   "mainnet-beta": "https://api.mainnet-beta.solana.com",
-  devnet: "https://api.devnet.solana.com",
+  devnet: "https://api.devnet.solana.com
+",
   testnet: "https://api.testnet.solana.com",
   localnet: "http://127.0.0.1:8899",
 };
